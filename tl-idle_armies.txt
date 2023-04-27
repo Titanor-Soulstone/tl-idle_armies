@@ -3,4 +3,23 @@ Let's make a game!
   author:Harry McKay aka Titanor Soulstone
   desc:Your description here!
   created:27/04/2023
+  updated:27/04/2023
   version:0.1
+
+Settings
+  //tiling background:url.jpg
+  building cost increase:105%
+  //spritesheet:Name, X by Y, url.jpg
+  //stylesheet:url
+
+Layout
+  *resources
+    contains:Resources
+    header:These are your resources.
+  *buildings
+    contains:Buildings
+    header:These are things you can build.
+    tooltip origin:left
+  *unlockables
+    contains:Upgrades, Achievements
+    names:hide
