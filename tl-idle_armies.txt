@@ -1,0 +1,5 @@
+/*
+  Name: Telnian Legends: Idle Armies
+  Author: Titanor Soulstone
+  Engine: Idle Game Maker
+*/
