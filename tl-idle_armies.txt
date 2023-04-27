@@ -11,16 +11,9 @@ Settings
   building cost increase:105%
   //spritesheet:Name, X by Y, url.jpg
   //stylesheet:url
-/*
+
 Layout
-  *resources
-    contains:Resources
-    header:These are your resources.
-  *buildings
-    contains:Buildings
-    header:These are things you can build.
-    tooltip origin:left
-  *unlockables
-    contains:Upgrades, Achievements
-    names:hide
-*/
+  use default
+  *achievs
+    in:main
+    contains:Achievements
