@@ -22,6 +22,9 @@ Resources
   *soulGems
     name:Soul Gems
     desc:Mysterious Gems with untold Power
+  *dew
+    name:Dew
+    desc:Gold Coins used to buy things
   *citezens
     name:Citezens
     desc:Citezens from houses
@@ -36,12 +39,12 @@ Buttons
   *chopTree
     name:Chop a Tree
     desc:Click this to Chop a Cree. Grants 1 Wood per click.
-    class:bigButton hasFlares
+    //class:bigButton hasFlares
     on click:anim icon wobble
     on click:yield 1 wood
   *mineRocks
     name:Mine Rocks
     desc:Click this to Mine Rocks. Grants 1 Ore per click.
-    class:bigButton hasFlares
+    //class:bigButton hasFlares
     on click:anim icon wobble
     on click:yield 1 ore
