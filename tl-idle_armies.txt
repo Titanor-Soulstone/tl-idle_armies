@@ -17,3 +17,11 @@ Layout
   *achievs
     in:main
     contains:Achievements
+
+Resources
+  *wood
+    name:Wood
+    desc:Wood From Trees.
+  *citezens
+    name:Citezens
+    desc:Citezens from houses
