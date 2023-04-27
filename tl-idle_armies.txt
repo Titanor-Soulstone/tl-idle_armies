@@ -1,4 +1,3 @@
-// Engine: Idle Game Maker
 let's make a game!
   name:My Totally Original Game
   author:Harry McKay aka Titanor Soulstone
