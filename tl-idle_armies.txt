@@ -11,7 +11,7 @@ Settings
   building cost increase:105%
   //spritesheet:Name, X by Y, url.jpg
   //stylesheet:url
-
+/*
 Layout
   *resources
     contains:Resources
@@ -23,3 +23,4 @@ Layout
   *unlockables
     contains:Upgrades, Achievements
     names:hide
+*/
