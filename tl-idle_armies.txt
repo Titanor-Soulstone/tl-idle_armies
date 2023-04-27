@@ -22,6 +22,8 @@ Buttons
   *chopTree
     name:Chop a Tree
     desc:Click this to chop a Cree. Grants 1 Wood per click.
+    class:bigButton hasFlares
+    on click:anim icon wobble
     on click:yield 1 wood
 
 Resources
