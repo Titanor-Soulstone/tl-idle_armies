@@ -1,5 +1,7 @@
-/*
-  Name: Telnian Legends: Idle Armies
-  Author: Titanor Soulstone
-  Engine: Idle Game Maker
-*/
+// Engine: Idle Game Maker
+let's make a game!
+  name:My Totally Original Game
+  author:Harry McKay aka Titanor Soulstone
+  desc:Your description here!
+  created:27/04/2023
+  version:0.1
