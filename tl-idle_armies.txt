@@ -1,4 +1,4 @@
-let's make a game!
+Let's make a game!
   name:My Totally Original Game
   author:Harry McKay aka Titanor Soulstone
   desc:Your description here!
