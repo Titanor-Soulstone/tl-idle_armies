@@ -18,21 +18,30 @@ Layout
     in:main
     contains:Achievements
 
-Buttons
-  *chopTree
-    name:Chop a Tree
-    desc:Click this to chop a Cree. Grants 1 Wood per click.
-    class:bigButton hasFlares
-    on click:anim icon wobble
-    on click:yield 1 wood
-
 Resources
   *soulGems
     name:Soul Gems
     desc:Mysterious Gems with untold Power
-  *wood
-    name:Wood
-    desc:Wood From Trees.
   *citezens
     name:Citezens
     desc:Citezens from houses
+  *wood
+    name:Wood
+    desc:Wood From Trees.
+  *ore
+    name:Ore
+    desc:Unprocesed Rocks & Minerals
+
+Buttons
+  *chopTree
+    name:Chop a Tree
+    desc:Click this to Chop a Cree. Grants 1 Wood per click.
+    class:bigButton hasFlares
+    on click:anim icon wobble
+    on click:yield 1 wood
+  *mineRocks
+    name:Mine Rocks
+    desc:Click this to Mine Rocks. Grants 1 Ore per click.
+    class:bigButton hasFlares
+    on click:anim icon wobble
+    on click:yield 1 ore
