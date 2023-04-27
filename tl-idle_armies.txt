@@ -18,10 +18,11 @@ Layout
     in:main
     contains:Achievements
 
-*chopTree
-  name:Chop Tree
-  desc:Click this to chop a Cree. Grants 1 Wood per click.
-  on click:yield 1 wood
+Buttons
+  *chopTree
+    name:Chop Tree
+    desc:Click this to chop a Cree. Grants 1 Wood per click.
+    on click:yield 1 wood
 
 Resources
   *wood
