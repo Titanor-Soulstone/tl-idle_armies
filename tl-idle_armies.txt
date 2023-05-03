@@ -139,5 +139,5 @@ Upgrades
 		//icon:icons[1,1]
 		cost:2000 dew
 		passive:increase dew yield of sellResources by 1
-		passive:increase dew yield of trader by 0.1
+		passive:multiply dew yield of trader by 2
 		req:1000 dew:earned
