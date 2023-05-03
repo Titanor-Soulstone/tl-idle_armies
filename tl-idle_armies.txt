@@ -131,6 +131,14 @@ Shinies
 Buildings
 	*TEMPLATE
 		on click:anim glow
+
+  *soldier|soldiers
+		name:Soldier|Soldiers
+		desc:A Soldier.<//><b>Effect:</b><.>Fights a Monster every 10 seconds.
+		//icon:icons[3,0]
+		cost:10 dew
+		on tick:yield 0.2 dew
+		unlocked
 		
 	*woodcutter|woodcutters
 		name:Wood Cutter|Wood Cutters
