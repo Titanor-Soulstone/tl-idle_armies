@@ -135,9 +135,9 @@ Upgrades
 		req:100 dew:earned
   *qualityres
 		name:Quality Resources
-		desc:You're Resources are worth more<//><b>Effect:</b><.>+1 Resource Value
+		desc:You're Resources are worth more<//><b>Effect:</b><.>+100% Resource Value
 		//icon:icons[1,1]
 		cost:2000 dew
-		passive:increase dew yield of sellResources by 1
+		passive:multiply dew yield of sellResources by 2
 		passive:multiply dew yield of trader by 2
 		req:1000 dew:earned
