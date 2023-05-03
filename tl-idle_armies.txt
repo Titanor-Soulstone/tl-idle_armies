@@ -103,11 +103,11 @@ Shinies
 			if (chance(25%))
 				//get at least 7, or between 1 and 3 minutes of our bunny production
 				$amount=max(7,random(dew:ps*60*1,dew:ps*60*3))*$boost
-				toast You Find<//><b>[$amount] dew</b>.
+				toast you find<//><b>[$amount] dew</b>.
 				yield $amount dew
 			else
 				$amount=1*$boost
-				toast You Find<//><b>[$amount] Soul Gem[s?$amount]</b>!
+				toast you find<//><b>[$amount] Soul Gem[s?$amount]</b>!
 				yield $amount soulGem
 			end
 		end
