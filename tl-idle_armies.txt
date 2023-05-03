@@ -50,8 +50,10 @@ Buttons
     desc:Click this to Sell Resources. Grants 1 Dew for every Resource per click.
     //class:bigButton hasFlares
     on click:anim icon wobble
-    on click:if (have wood) lose 1 wood and yield 1 dew
-    on click:if (have ore) lose 1 ore and yield 1 dew
+    on click:if (have wood) lose 1 wood
+    on click:if (have wood) yield 1 dew
+    on click:if (have ore) lose 1 ore
+    on click:if (have ore) yield 1 dew
 
 Buildings
 	*TEMPLATE
