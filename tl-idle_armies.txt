@@ -55,8 +55,6 @@ Buttons
         yield 1 dew
         lose 1 wood
       end
-    end
-    on click:
       if (have ore)
         yield 1 dew
         lose 1 ore
