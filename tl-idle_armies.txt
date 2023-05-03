@@ -177,7 +177,7 @@ Upgrades
 	*TEMPLATE
 		on click:anim glow
   *coppersword
-		name:Copper Swords
+		name:Copper Sword
 		desc:Copper Swords for You and Your Soldiers.<//><b>Effect:</b><.>+1 Dew/click<.>Dew production +5%
 		//icon:icons[1,1]
 		cost:100 dew, 10 ore
