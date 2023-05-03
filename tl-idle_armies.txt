@@ -141,3 +141,19 @@ Upgrades
 		passive:multiply dew yield of sellResources by 2
 		passive:multiply dew yield of trader by 2
 		req:1000 dew:earned
+  *goldaxe
+		name:Gold Axe
+		desc:Gold Axes for You and Your Wood Cutters.<//><b>Effect:</b><.>+100% Wood/click<.>Wood production +100%
+		//icon:icons[1,1]
+		cost:1000 dew, 100 ore
+		passive:multiply wood yield of chopTree by 2
+		passive:multiply yield of wood by 2
+		req:100 dew:earned
+  *goldpick
+		name:Gold Pick
+		desc:Gold Picks for You and Your Miners.<//><b>Effect:</b><.>+100% Ore/click<.>Ore production +100%
+		//icon:icons[1,1]
+		cost:1000 dew, 100 ore
+		passive:multiply ore yield of mineRocks by 2
+		passive:multiply yield of ore by 2
+		req:100 dew:earned
