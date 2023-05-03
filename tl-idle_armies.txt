@@ -56,11 +56,11 @@ Buttons
     on click:anim icon wobble
     on click:
       if (have wood) 
-        yield 1 dew
+        yield frandom(1,2) dew
         lose 1 wood
       end
       if (have ore)
-        yield 1 dew
+        yield frandom(1,2) dew
         lose 1 ore
       end
     end
@@ -71,7 +71,7 @@ Buttons
 		on click:
       yield random(5,15) dew
       if (chance(25%))
-        random(20,30)
+        yield random(20,30) dew
       end
       if (have goldenTouch and chance(1%)) 
         yield random(1,3) soulGem
@@ -191,7 +191,7 @@ Upgrades
 		cost:2000 dew
 		passive:multiply dew yield of sellResources by 2
 		passive:multiply dew yield of trader by 2
-    passive:multiply yield of battle by random(2,3)
+    passive:multiply yield of battle by frandom(2,3)
 		req:1000 dew:earned
   *goldaxe
 		name:Gold Axe
