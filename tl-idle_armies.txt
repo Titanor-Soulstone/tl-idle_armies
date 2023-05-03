@@ -70,5 +70,5 @@ Buildings
 		desc:A Builder.<//><b>Effect:</b><.>Produces 1 wood every 10 seconds.
 		//icon:icons[3,0]
 		cost:10 dew
-		//on tick:yield 0.1 citezens
+		on tick:yield 0.1 wood
 		unlocked
