@@ -22,15 +22,19 @@ Resources
   *soulGem|soulGems
     name:Soul Gem|Soul Gems
     desc:Mysterious Gems with untold Power
+    hidden when 0
   *dew
     name:Dew
     desc:Gold Coins used to buy things
+    hidden when 0
   *wood
     name:Wood
     desc:Wood From Trees.
+    hidden when 0
   *ore
     name:Ore
     desc:Unprocesed Rocks & Minerals
+    hidden when 0
 
 Buttons
   *chopTree
