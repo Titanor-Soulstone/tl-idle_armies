@@ -101,12 +101,43 @@ Buildings
 Upgrades
 	*TEMPLATE
 		on click:anim glow
-	
 	*copperaxe
 		name:Copper Axe
-		desc:Copper Axes for You and Your Wood Cutters.<//><b>Effect:</b><.>+1 wood/click<.>wood production +5%
+		desc:Copper Axes for You and Your Wood Cutters.<//><b>Effect:</b><.>+1 Wood/click<.>Wood production +5%
 		//icon:icons[1,1]
-		cost:100 dew
+		cost:100 dew, 10 ore
 		passive:increase wood yield of chopTree by 1
 		passive:multiply yield of wood by 1.05
 		req:10 dew:earned
+  *copperpick
+		name:Copper Pick
+		desc:Copper Picks for You and Your Miners.<//><b>Effect:</b><.>+1 Ore/click<.>Ore production +5%
+		//icon:icons[1,1]
+		cost:100 dew, 10 ore
+		passive:increase ore yield of mineRocks by 1
+		passive:multiply yield of ore by 1.05
+		req:10 dew:earned
+  *ironaxe
+		name:Iron Axe
+		desc:Iron Axes for You and Your Wood Cutters.<//><b>Effect:</b><.>+2 Wood/click<.>Wood production +5%
+		//icon:icons[1,1]
+		cost:1000 dew, 100 ore
+		passive:increase wood yield of chopTree by 2
+		passive:multiply yield of wood by 1.05
+		req:100 dew:earned
+  *ironpick
+		name:Iron Pick
+		desc:Iron Picks for You and Your Miners.<//><b>Effect:</b><.>+2 Ore/click<.>Ore production +5%
+		//icon:icons[1,1]
+		cost:1000 dew, 100 ore
+		passive:increase ore yield of mineRocks by 2
+		passive:multiply yield of ore by 1.05
+		req:100 dew:earned
+  *qualityres
+		name:Quality Resources
+		desc:You're Resources are worth more<//><b>Effect:</b><.>+1 Resource Value
+		//icon:icons[1,1]
+		cost:2000 dew
+		passive:increase dew yield of sellResources by 1
+		passive:increase dew yield of trader by 0.1
+		req:1000 dew:earned
