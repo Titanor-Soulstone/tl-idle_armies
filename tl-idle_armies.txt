@@ -88,12 +88,12 @@ Buildings
 		cost:20 dew
 		on tick:
       if (have wood) 
-        yield 1 dew
-        lose 1 wood
+        yield 0.1 dew
+        lose 0.1 wood
       end
       if (have ore)
-        yield 1 dew
-        lose 1 ore
+        yield 0.1 dew
+        lose 0.1 ore
       end
     end
 		unlocked
