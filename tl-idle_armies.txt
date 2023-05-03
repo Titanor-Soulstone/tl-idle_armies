@@ -151,7 +151,7 @@ Buildings
 	*miner|miners
 		name:Miner|Miners
 		desc:A Miner.<//><b>Effect:</b><.>Produces 1 Ore every 10 seconds.
-		//icon:icons[3,0]
+		icon:https://github.com/Titanor-Soulstone/tl-idle_armies/raw/main/img/miner.png
 		cost:10 dew
 		on tick:yield 0.1 ore
 		unlocked
