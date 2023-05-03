@@ -67,8 +67,33 @@ Buildings
 		
 	*woodcutter|woodcutters
 		name:Wood Cutter|Wood Cutters
-		desc:A Builder.<//><b>Effect:</b><.>Produces 1 wood every 10 seconds.
+		desc:A Wood Cutter.<//><b>Effect:</b><.>Produces 1 Wood every 10 seconds.
 		//icon:icons[3,0]
 		cost:10 dew
 		on tick:yield 0.1 wood
+		unlocked
+  	
+	*miner|miners
+		name:Miner|Miners
+		desc:A Miner.<//><b>Effect:</b><.>Produces 1 Ore every 10 seconds.
+		//icon:icons[3,0]
+		cost:10 dew
+		on tick:yield 0.1 ore
+		unlocked
+  	
+	*trader|traders
+		name:Trader|Traders
+		desc:A Trader.<//><b>Effect:</b><.>Sells 1 Wood and 1 Ore every 10 seconds.
+		//icon:icons[3,0]
+		cost:20 dew
+		on tick:
+      if (have wood) 
+        yield 1 dew
+        lose 1 wood
+      end
+      if (have ore)
+        yield 1 dew
+        lose 1 ore
+      end
+    end
 		unlocked
