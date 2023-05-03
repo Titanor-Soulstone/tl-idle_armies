@@ -69,18 +69,18 @@ Buttons
 		desc:Battle Monsters to Earn Gold & Resources!
 		on click:anim icon wobble
 		on click:
-      yield 1 dew
+      yield random(5,15) dew
       if (chance(25%))
-        yield 2 dew
+        random(20,30)
       end
       if (have goldenTouch and chance(1%)) 
-        yield 1 soulGem
+        yield random(1,3) soulGem
       end
       if (chance(25%))
-        yield 1 wood
+        yield random(1,10) wood
       end
       if (chance(25%))
-        yield 1 ore
+        yield random(1,10) ore
       end
     end
 		icon:stuff/bunny.png
@@ -191,6 +191,7 @@ Upgrades
 		cost:2000 dew
 		passive:multiply dew yield of sellResources by 2
 		passive:multiply dew yield of trader by 2
+    passive:multiply yield of battle by random(2,3)
 		req:1000 dew:earned
   *goldaxe
 		name:Gold Axe
