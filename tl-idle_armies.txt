@@ -86,6 +86,28 @@ Buttons
 		tooltip origin:bottom
 		tooltip class:red
 
+Shinies
+	*soulGemShine
+		on click:log Woop
+		frequency:60
+		frequency variation:30
+		icon:stuff/luckyBunny.png
+		class:bigButton
+		on click:
+			$boost=1
+			if (have clover) $boost=4
+			if (chance(25%))
+				//get at least 7, or between 1 and 3 minutes of our bunny production
+				$amount=max(7,random(bunnies:ps*60*1,bunnies:ps*60*3))*$boost
+				You Find<//><b>[$amount] dew</b>.
+				yield $amount dew
+			else
+				$amount=1*$boost
+				You Find<//><b>[$amount] Soul Gem[s?$amount]</b>!
+				yield $amount soulGem
+			end
+		end
+
 Buildings
 	*TEMPLATE
 		on click:anim glow
