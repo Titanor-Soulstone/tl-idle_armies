@@ -19,8 +19,8 @@ Layout
     contains:Achievements
 
 Resources
-  *soulGems
-    name:Soul Gems
+  *soulGem|soulGems
+    name:Soul Gem|Soul Gems
     desc:Mysterious Gems with untold Power
   *dew
     name:Dew
@@ -60,6 +60,18 @@ Buttons
         lose 1 ore
       end
     end
+  *battle
+		name:Battle Monsters
+		desc:Battle Monsters to Earn Gold & Resources!
+		on click:anim icon wobble
+		on click:yield 1 dew
+		on click:if (have goldenTouch and chance(1%)) yield 1 soulGem
+		icon:stuff/bunny.png
+		no text
+		class:bigButton hasFlares
+		icon class:shadowed
+		tooltip origin:bottom
+		tooltip class:red
 
 Buildings
 	*TEMPLATE
@@ -157,3 +169,9 @@ Upgrades
 		passive:multiply ore yield of mineRocks by 2
 		passive:multiply yield of ore by 2
 		req:100 dew:earned
+  *goldenTouch
+		name:Golden touch
+		desc:The delicate art of finding Soul Gems.<//><b>Effect:</b><.>1% chance of gaining 1 Soul Gem per battle click
+		//icon:icons[2,5]
+		cost:1 soulGem
+		req:1 soulGem:earned
