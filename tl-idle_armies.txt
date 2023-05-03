@@ -8,6 +8,7 @@ Let's make a game!
 
 Settings
   //tiling background:url.jpg
+  background:stuff/meadow.jpg
   building cost increase:105%
   //spritesheet:Name, X by Y, url.jpg
   //stylesheet:url
