@@ -136,7 +136,7 @@ Buildings
 		name:Soldier|Soldiers
 		desc:A Soldier.<//><b>Effect:</b><.>Fights a Monster every 10 seconds.
 		//icon:icons[3,0]
-		cost:10 dew
+		cost:4 dew
 		on tick:yield 0.2 dew
 		unlocked
 		
