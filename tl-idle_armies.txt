@@ -135,7 +135,7 @@ Buildings
   *soldier|soldiers
 		name:Soldier|Soldiers
 		desc:A Soldier.<//><b>Effect:</b><.>Fights a Monster every 10 seconds.
-		//icon:icons[3,0]
+		icon:https://github.com/Titanor-Soulstone/tl-idle_armies/raw/main/img/soldier.png
 		cost:4 dew
 		on tick:yield 0.2 dew
 		unlocked
@@ -143,7 +143,7 @@ Buildings
 	*woodcutter|woodcutters
 		name:Wood Cutter|Wood Cutters
 		desc:A Wood Cutter.<//><b>Effect:</b><.>Produces 1 Wood every 10 seconds.
-		//icon:icons[3,0]
+		icon:https://github.com/Titanor-Soulstone/tl-idle_armies/raw/main/img/woodcutter.png
 		cost:10 dew
 		on tick:yield 0.1 wood
 		unlocked
@@ -159,7 +159,7 @@ Buildings
 	*trader|traders
 		name:Trader|Traders
 		desc:A Trader.<//><b>Effect:</b><.>Sells 1 Wood and 1 Ore every 10 seconds.
-		//icon:icons[3,0]
+		icon:https://github.com/Titanor-Soulstone/tl-idle_armies/raw/main/img/trader.png
 		cost:20 dew
 		on tick:
       if (have wood) 
