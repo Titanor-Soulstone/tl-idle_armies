@@ -13,10 +13,24 @@ Settings
   //stylesheet:url
 
 Layout
-  use default
-  *achievs
-    in:main
-    contains:Achievements
+  *main
+    contains:res, buttons
+    *res
+      contains:Resources
+      class:fullWidth
+    *buttons
+      contains:Buttons
+  *store
+    contains:buildings, upgrades
+    *buildings
+      contains:BulkDisplay, Buildings
+      header:Buildings
+      tooltip origin:left
+    *upgrades
+      contains:Upgrades
+      header:Upgrades
+      costs:hide
+      names:hide
 
 Resources
   *soulGem|soulGems
