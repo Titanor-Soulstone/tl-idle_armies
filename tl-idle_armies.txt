@@ -95,7 +95,7 @@ Shinies
 		class:bigButton
 		on click:
 			$boost=1
-			if (have clover) $boost=4
+			if (have qualityres) $boost=4
 			if (chance(25%))
 				//get at least 7, or between 1 and 3 minutes of our bunny production
 				$amount=max(7,random(bunnies:ps*60*1,bunnies:ps*60*3))*$boost
@@ -195,7 +195,7 @@ Upgrades
 		cost:5000 dew, 1000 ore
 		passive:multiply wood yield of chopTree by 2
 		passive:multiply yield of wood by 2
-		req:100 dew:earned
+		req:1000 dew:earned
   *goldpick
 		name:Gold Pick
 		desc:Gold Picks for You and Your Miners.<//><b>Effect:</b><.>+100% Ore/click<.>Ore production +100%
@@ -203,7 +203,7 @@ Upgrades
 		cost:5000 dew, 1000 ore
 		passive:multiply ore yield of mineRocks by 2
 		passive:multiply yield of ore by 2
-		req:100 dew:earned
+		req:1000 dew:earned
   *goldenTouch
 		name:Golden touch
 		desc:The delicate art of finding Soul Gems.<//><b>Effect:</b><.>1% chance of gaining 1 Soul Gem per battle click
