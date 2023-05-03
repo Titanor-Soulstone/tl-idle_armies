@@ -70,9 +70,9 @@ Buttons
 		on click:anim icon wobble
 		on click:
       yield random(5,15) dew
-      if (chance(25%))
-        yield random(20,30) dew
-      end
+      //if (chance(15%))
+      //  yield random(20,30) dew
+      //end
       if (have goldenTouch and chance(1%)) 
         yield random(1,3) soulGem
       end
