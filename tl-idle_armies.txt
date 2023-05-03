@@ -64,8 +64,21 @@ Buttons
 		name:Battle Monsters
 		desc:Battle Monsters to Earn Gold & Resources!
 		on click:anim icon wobble
-		on click:yield 1 dew
-		on click:if (have goldenTouch and chance(1%)) yield 1 soulGem
+		on click:
+      yield 1 dew
+      if (chance(25%))
+        yield 2 dew
+      end
+      if (have goldenTouch and chance(1%)) 
+        yield 1 soulGem
+      end
+      if (chance(25%))
+        yield 1 wood
+      end
+      if (chance(25%))
+        yield 1 ore
+      end
+    end
 		icon:stuff/bunny.png
 		no text
 		class:bigButton hasFlares
