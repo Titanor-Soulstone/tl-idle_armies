@@ -1,9 +1,9 @@
 Let's make a game!
-  name:My Totally Original Game
+  name:Telnian Legends: Idle Armies
   author:Harry McKay aka Titanor Soulstone
   desc:Your description here!
   created:27/04/2023
-  updated:27/04/2023
+  updated:3/05/2023
   version:0.1
 
 Settings
@@ -25,9 +25,6 @@ Resources
   *dew
     name:Dew
     desc:Gold Coins used to buy things
-  *citezens
-    name:Citezens
-    desc:Citezens from houses
   *wood
     name:Wood
     desc:Wood From Trees.
@@ -48,3 +45,21 @@ Buttons
     //class:bigButton hasFlares
     on click:anim icon wobble
     on click:yield 1 ore
+  *sellResources
+    name:Sell Resources
+    desc:Click this to Sell Resources. Grants 1 Dew for every Resource per click.
+    //class:bigButton hasFlares
+    on click:anim icon wobble
+    on click:yield 1 ore
+
+Buildings
+	*TEMPLATE
+		on click:anim glow
+		
+	*woodcutter|woodcutters
+		name:Wood Cutter|Wood Cutters
+		desc:A Builder.<//><b>Effect:</b><.>Produces 1 wood every 10 seconds.
+		//icon:icons[3,0]
+		cost:10 dew
+		//on tick:yield 0.1 citezens
+		unlocked
