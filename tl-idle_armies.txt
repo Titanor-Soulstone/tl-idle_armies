@@ -135,7 +135,7 @@ Buildings
   *soldier|soldiers
 		name:Soldier|Soldiers
 		desc:A Soldier.<//><b>Effect:</b><.>Fights a Monster every 10 seconds.
-		icon:https://github.com/Titanor-Soulstone/tl-idle_armies/raw/main/img/soldier.png, 32 by 32
+		icon:https://github.com/Titanor-Soulstone/tl-idle_armies/raw/main/img/soldier.png
 		cost:4 dew
 		on tick:yield 0.2 dew
 		unlocked
